@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/foro.css">
+    <script defer src="../scripts/foro.js"></script>
+    <title>ADAPA - Foro de contactos</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="index.html">Inicio</a>
+                <a href="acerca_de_adapa.html">Acerca de ADAPA</a>
+                <a href="perfil.html">Perfil</a>
+                <a href="foro.html">Foro de contactos</a>
+                <a href="objetivos.html">Objetivos</a>
+            </div>
+        </nav>
+    </header>
+    <div class="foto">
+        <img src="../image files/adapa.png" alt="Imagen de ADAPA">
+    </div>
+    <main>
+        <div id="capsa_esquerra">
+            <div id="foro">
+                <div id="titulo_forum">Foro de contactos</div>
+                <div id="no-profile-message">
+                    <p>Para participar en el foro, primero debes <a href="perfil.html">crear un perfil e iniciar sesión</a>.</p>
+                </div>
+                <div id="forum-content" style="display: none;">
+                    <div id="new-post">
+                        <h2>Crear nuevo tema</h2>
+                        <label for="post-title">Título:</label>
+                        <input type="text" id="post-title" placeholder="Introduce el título del tema">
+                        <label for="post-content">Contenido:</label>
+                        <textarea id="post-content" placeholder="Escribe el contenido del tema"></textarea>
+                        <button id="post-button">Publicar</button>
+                    </div>
+                    <div id="posts">
+                        <h2>Temas recientes</h2>
+                        <div id="post-list">
+                            <!-- Aquí se añadirán los temas publicados -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <a href="https://www.facebook.com/kanyewest/" target="_blank">FACEBOOK</a>
+            <a href="https://mobile.twitter.com/YeeeeesicaOk/status/1622085315753115649?cxt=HHwWgoC8jYSA54ItAAAA" target="_blank">TWITTER</a>
+            <a href="https://www.pinterest.com/pin/331014641370729633/" target="_blank">PINTEREST</a>
+            <a href="mailto:example@example.com" target="_blank">EMAIL</a>
+            <a href="https://www.barneystinsonblog.com/" target="_blank">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,182 @@
+/* Archivo: foro.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos para el header y la navegación */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Estilos para la imagen principal */
+.foto {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.foto img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el main y contenido */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#capsa_esquerra {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+#titulo_forum {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#no-profile-message {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#no-profile-message a {
+    color: #333;
+    text-decoration: underline;
+}
+
+#no-profile-message a:hover {
+    text-decoration: none;
+}
+
+#forum-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#new-post {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#new-post label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#new-post input[type="text"],
+#new-post textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 10px 20px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#new-post button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+#new-post button:hover {
+    background-color: #575757;
+}
+
+#posts {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#posts h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.post {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.post h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.post p {
+    margin: 0;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: text-decoration 0.3s;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
